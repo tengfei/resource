@@ -1,0 +1,11 @@
+---
+title: "Example Rmarkdown"
+output: pdf_document
+---
+
+Summary of expression
+
+```{r}
+de <- read.csv("data/de.csv")
+summary(de)
+```
